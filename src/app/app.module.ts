@@ -7,7 +7,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { CardComponent } from './components/card/card.component';
 import { CardLabelComponent } from './components/card/card-label/card-label.component';
-import { CardPriceComponent } from './src/app/components/card/card-price/card-price.component';
+import { CardPriceComponent } from './components/card/card-price/card-price.component';
 
 @NgModule({
   declarations: [
