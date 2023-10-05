@@ -29,6 +29,10 @@ Construindo a Playstation Store com Angular
 
 Neste desafio de projeto iremos recriar o Playstation Store com Angular, construir componentes inteligentes e aprenda como organizar seu projeto Angular
 
+<p align="left">
+  <img width="750" src="src/assets/logo/angular-psn.png" alt="angular-psn-store">
+</p>
+
 ## Tecnologias
 
 <p display="inline-block">
