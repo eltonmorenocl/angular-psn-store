@@ -21,6 +21,7 @@
   display: flex;
   margin:auto;
   align-items: center;
+  cursor: pointer;
 }
 
 .menu-bar_item > ul{
@@ -36,11 +37,15 @@
 .menu-bar_item > ul > li > a {
 	text-decoration: none;
 	padding: 5px;
-	color: rgb(7, 7, 7);
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: white;
+  /* background: rgb(2,0,36); */
+  background: linear-gradient(90deg, rgb(8, 85, 173) 0%, rgba(9,9,121,1) 35%, rgba(9,9,121,1) 100%);
+  border-radius: 10%;
+	font-family: inherit;
+  font-weight: 500;
 }
 
 .menu-bar_item > ul > li > a:hover {
-	color: blue;
+	color: rgb(0, 119, 255);
 	font-weight: 600;
 }

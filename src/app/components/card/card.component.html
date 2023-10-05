@@ -1,3 +1,11 @@
-<p>card works!</p>
-<app-card-label></app-card-label>
-<app-card-price></app-card-price>
+<a [href]=[gameSrc] target="_blank" class="card_container">
+  <img
+    class="card_img"
+    [src]=[gameCover]
+    alt=""
+    srcset=""
+  >
+  <app-card-label gameLabel="{{gameLabel}}"></app-card-label>
+  <app-card-price gamePrice="{{gamePrice}}" gameType="{{gameType}}"></app-card-price>
+
+</a>
